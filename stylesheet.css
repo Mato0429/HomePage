@@ -1,5 +1,6 @@
 :Root{
     --speed: 0s;
+    --maincolor : gainsboro;
     }
 
  body {
@@ -22,11 +23,10 @@
  .header li :hover{
     padding : 40px 0px 15px 0px;
     background: #5fa7b3;
-  }
   
-  .header {
+ .header {
     background-color: #8bc1c9;
-    color: #fff;
+    color: var(--maincolor);
     height: 80px;
     width : 1340px;
     padding-left :10px;
@@ -34,7 +34,7 @@
 
   .profile {
     background-color: #d5e8eb;
-    color: #fff;
+    color: var(--maincolor);
     height: 180px;
     width : 1340px;
     padding-left :10px;
@@ -51,18 +51,18 @@
   }
 
   a {
-    color: white;
+    color: var(maincolor);
     text-decoration: none;
   }
 
   .setting{
       background-color : #d5e8eb;
-      color : #c1c441;
+      color : var(--maincolor);
   }
 
   .news{
     background-color : #d5e8eb;
-    color : white;
+    color : var(maincolor);
 }
 
 /* アニメーションたち */
