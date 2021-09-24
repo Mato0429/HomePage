@@ -6,6 +6,7 @@
     background-color : white;
     background-image: url("images/cat.jpg");
     font-family:'メイリオ', 'Meiryo','ＭＳ ゴシック','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+    text-shadow: 1px 2px 3px #808080;
   }
   
  a{
