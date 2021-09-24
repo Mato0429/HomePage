@@ -4,7 +4,7 @@
 
  body {
     background-color : white;
-    background-image: url("/images/cat.jpg");
+    background-image: url("HomePage/cat.jpg");
     font-family:'メイリオ', 'Meiryo','ＭＳ ゴシック','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
   }
   
