@@ -4,7 +4,7 @@
 
  body {
     background-color : white;
-    background-image: url("images/cat.jpg");
+    background-image: url("C:/Users/user/Desktop/my pages/homepage/images/cat.jpg");
     font-family:'メイリオ', 'Meiryo','ＭＳ ゴシック','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
     text-shadow: 1px 2px 3px #808080;
   }
@@ -32,10 +32,16 @@
     padding-left :10px;
   }
 
-  .profile {
+  .profile{
     background-color: #d5e8eb;
-    color: red;
+    color: #fff;
     padding-left :10px;
+    line-height:0px;
+  }
+
+  .profile .buru{
+    line-height:20px;
+    word-break:break-all;
   }
   
   .header-logo {
