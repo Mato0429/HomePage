@@ -16,7 +16,7 @@ window.addEventListener("DOMContentLoaded",e => {
 
     btn.addEventListener("click",e2 => {
         if(inta.value <= 1 || intb.value <= 1 || inta.value == intb.value){
-            result.value = `value error`;
+            result.innerHTML = `value error`;
         }else{
             //判定
             if(inta.value > intb.value){
