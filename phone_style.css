@@ -1,12 +1,10 @@
-:Root{
-    --speed: 0s;
-    }
 
  body {
     background-color : white;
-    background-image: url("images/cat.jpg");
+    background-image: url("C:/Users/user/Desktop/my pages/homepage/images/cat.jpg");
     font-family:'メイリオ', 'Meiryo','ＭＳ ゴシック','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
     text-shadow: 1px 2px 3px #808080;
+    font-size: 12px;
   }
   
  a{
@@ -15,32 +13,47 @@
 
  .header li {
     list-style: none;
-    padding : 33px 20px 0px 10px;
+    padding : px 20px 0px 5px;
     display: inline;
     background: #8bc1c9;
+    float:center;
+    
   }
 
  .header li :hover{
-    padding : 40px 0px 15px 0px;
+    padding : 23px 0px 7.25px 0px;
     background: #5fa7b3;
   }
   
   .header {
     background-color: #8bc1c9;
     color: #fff;
-    height: 80px;
-    padding-left :10px;
+    height: 45px;
+    padding-left :5px;
+    font-size:8px;
   }
 
   .profile {
     background-color: #d5e8eb;
     color: #fff;
+    height: 180px;
     padding-left :10px;
+    padding-bottom:10px;
+    font-size : 15px;
+    line-height:0px;
+  }
+
+  .profile .buru{
+    overflow-wrap: wrap;
+    font-size:10px;
+    padding : 0px,0px,0px,0px;
+    word-break:break-all;
+    line-height:10px
   }
   
   .header-logo {
     float: left;
-    font-size: 26px;
+    font-size: 13px;
     
   }
 
