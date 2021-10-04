@@ -1,5 +1,5 @@
 window.addEventListener("DOMContentLoaded" , e => {
-    //選択
+    //要素を選択
     const video = document.querySelector("#video");
     const PlayBtn = document.querySelector("#play");
     const MuteBtn = document.querySelector("#mute");
