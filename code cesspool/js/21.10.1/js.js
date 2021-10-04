@@ -3,6 +3,7 @@ window.addEventListener("DOMContentLoaded" , e => {
     const video = document.querySelector("#video");
     const PlayBtn = document.querySelector("#play");
     const MuteBtn = document.querySelector("#mute");
+    const resetBtn = document.querySelector("#reset");
 
     //再生と一時停止変数
     let PlayAndPause = 0;
@@ -19,6 +20,11 @@ window.addEventListener("DOMContentLoaded" , e => {
         //関数の呼び出し
         mutefunc();
     })
+    
+    //リセットボタン処理
+    resetBtn.addEventListener("click" , e => {
+        video.duration = 0;
+    });
 
     //updateで処理
     video.addEventListener("timeupdate" , e => {
