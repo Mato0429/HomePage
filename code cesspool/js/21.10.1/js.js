@@ -23,7 +23,7 @@ window.addEventListener("DOMContentLoaded" , e => {
     
     //リセットボタン処理
     resetBtn.addEventListener("click" , e => {
-        video.duration = 0;
+        video.currentTime = 0;
     });
 
     //updateで処理
